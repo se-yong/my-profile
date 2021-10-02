@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.logotext{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: default;
+}
+
+
+.text{
+    float: right;
+    margin-top: -250px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.text li {
+    display: inline-block;
+}
+
+
+.logotext h2{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 5em;
+    text-align: justify;
+    color: white;
+    z-index: 1;
+    mix-blend-mode: overlay;
+}
+
+
+.text h4{
+    @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 2em;
+    text-align: justify;
+    color: white;
+    z-index: 3;
+    mix-blend-mode: overlay;    
+}
+
+.text li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 5px 20px;
+}
+
+.text li a:hover {
+border: 1px solid white;
+}
+
+.li {
+    line-height:50%
+}
